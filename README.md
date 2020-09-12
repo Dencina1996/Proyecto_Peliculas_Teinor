@@ -17,8 +17,8 @@ Proyecto realizado con PHP, Javascript (Jquery), CSS y MySQL.
 	* Se requiere extraer el contenido en una carpeta (en caso de estar en formato **.zip**)
 	* Para poder ejecutar el programa, requerimos de alguna herramienta que nos permita acceder a páginas PHP y MySQL, yo personalmente he utilizado XAMPP. 
 	* **Para que funcione, disponemos de varios métodos**:
-		* Accedemos a través de terminal a la carpeta del repositorio y ejecutamos el siguiente comando:
-	 ``php -S localhost:8000``
+		* Accedemos a través de terminal a la carpeta del repositorio y ejecutamos el siguiente comando:		
+	 ``php -S localhost:8000``		
 	 Esto nos permitirá acceder a la aplicación usando la barra de direcciones de nuestro navegador con la siguiente dirección: ***localhost:8000***
 		* También podemos clonar el repositorio en nuestra carpeta de XAMPP. Para ello, moveremos el repositorio a nuestra carpeta *htdocs*:
 	``xampp/htdocs``
