@@ -1,0 +1,107 @@
+/* HTML ELEMENTS */
+
+	html {
+		background-color: aliceblue;
+		font-family: 'Roboto', sans-serif !important;
+	}
+
+	h1, h3 {
+		text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	}
+
+	input {
+		outline: none;
+		border: solid 1px black;
+		padding: 2px;
+	}
+
+	button, input[type="submit"] {
+		font-weight: bold;
+		padding: 4px;
+		cursor: pointer;
+		background-color: aliceblue;
+		border: solid 1px black;
+		outline: none;
+		font-family: 'Roboto', sans-serif !important; /* Mozilla Firefox */
+		border-radius: 4px;
+	}
+
+	button:hover {
+		background-color: gold;
+	}
+
+	/* FONT */
+
+		@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap');
+
+/* HEADER */
+
+	.header {
+		padding: 20px;
+		background-color: #4a5663;
+		border: solid 1px black;
+		box-shadow: 2px 2px 4px;
+	}
+
+	.search-bar {
+		padding: 5px;
+		border-radius: 4px;
+	}
+
+	/* FILM FORM */
+
+		.add-film {
+			width: fit-content;
+			text-align: right;
+			background-color: gold;
+			padding: 10px;
+			margin-top: 10px;
+			border: solid 1px black;
+			position: absolute;
+			visibility: hidden;
+			z-index: 2;
+		}
+
+		.add-film input {
+			width: 250px;
+			margin-top: 4px;
+		}
+
+		.add-film input[type="submit"]:hover {
+			box-shadow: 2px 2px 8px;
+		}
+
+/* FILM LIST */
+
+	.film-list {
+		width: 100%;
+		display: table;
+	}
+
+	.film-data {
+		width: 350px;
+		display: inline-block;
+		text-align: center;
+		padding: 10px;
+		border: solid 1px black;
+		margin: 10px;
+		background-color: lightslategray;
+		border-radius: 4px;
+		box-shadow: 6px 6px 20px;
+	}
+
+	.film-data:hover {
+		background-color: #778899ab;
+	}
+
+	.film-image {
+		height: 300px;
+		width: 230px;
+		border: solid 1px black;
+		border-radius: 10px;
+	}
+
+	.order-button {
+		float: right;
+		margin: 10px
+	}
